@@ -17,16 +17,17 @@
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-  # Training
+  #### Training
 
    ```sh
    python train_g2p.py --config_path /path/to/model_config.yaml --session_name "session_name"  --data_dir /path/to/data -sv_file /path/to/source_vocab_file -tv_file /path/to/target_vocab_file 
    ```
    
-   # Inference
+  #### Inference
    
    ```sh
    python train_g2p.py --config_path /path/to/model_config.yaml --session_name "session_name"  --data_dir /path/to/data --eval -sv_file /path/to/source_vocab_file -tv_file /path/to/target_vocab_file    
    ```
-    
-   
+
+## Note
+  * This repo already contains the required CMU DICT data at their default paths. If you want to change data, change the path accordingly.
